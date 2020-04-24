@@ -1,0 +1,34 @@
+{
+  "name": "inerciacreativa/wp-footnotes",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "Gestor de notas al pie",
+  "homepage": "https://github.com/inerciacreativa/wp-footnotes",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "wordpress-plugin"
+  ],
+  "authors": [
+    {
+      "name": "José Cuesta",
+      "email": "jose.cuesta@inerciacreativa.com",
+      "homepage": "https://inerciacreativa.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "extra": {
+    "installer-name": "ic-footnotes"
+  },
+  "autoload": {
+    "psr-4": {
+      "ic\\Plugin\\Footnotes\\": "source/"
+    }
+  }
+}
