@@ -2,7 +2,7 @@
 /**
  * Plugin Name: ic Footnotes
  * Plugin URI:  https://github.com/inerciacreativa/wp-footnotes
- * Version:     1.0.0
+ * Version:     1.0.1
  * Text Domain: ic-footnotes
  * Domain Path: /languages
  * Description: Crea notas a pie de página.
