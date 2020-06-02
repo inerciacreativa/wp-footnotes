@@ -4,6 +4,11 @@ namespace ic\Plugin\Footnotes;
 
 use ic\Framework\Html\Tag;
 
+/**
+ * Class Notes
+ *
+ * @package ic\Plugin\Footnotes
+ */
 class Notes
 {
 
@@ -12,8 +17,16 @@ class Notes
 	 */
 	private $post_id;
 
+	/**
+	 * @var string[]
+	 */
 	private $notes = [];
 
+	/**
+	 * Notes constructor.
+	 *
+	 * @param int $post_id
+	 */
 	public function __construct(int $post_id)
 	{
 		$this->post_id = $post_id;
