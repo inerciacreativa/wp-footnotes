@@ -37,9 +37,7 @@ class Frontend extends PluginClass
 	 */
 	protected function setNotes(string $content): string
 	{
-		global $id;
-
-		$this->notes = new Notes($id);
+		$this->notes = new Notes((int) get_the_ID());
 
 		return $content;
 	}
